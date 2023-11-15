@@ -317,7 +317,7 @@ function Comments({ isLoading, topComments, commentsShown, showMore }: CommentsP
 }
 
 const CopyrightLink = (title: string) => (
-  <a class="root__copyright-link" href="https://remark42.com/">
+  <a class="root__copyright-link" href="https://traleor.com/">
     {title}
   </a>
 );
@@ -343,7 +343,7 @@ export function ConnectedRoot() {
         <p className="root__copyright" role="contentinfo">
           <FormattedMessage
             id="root.powered-by"
-            defaultMessage="Powered by <a>Remark42</a>"
+            defaultMessage="Powered by <a>Traleor Comments</a>"
             values={{ a: CopyrightLink }}
           />
         </p>
