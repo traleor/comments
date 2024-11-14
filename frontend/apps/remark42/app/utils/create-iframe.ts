@@ -14,7 +14,7 @@ export function createIframe({ __colors__, styles, ...params }: Params) {
     allowtransparency: 'true',
     scrolling: 'no',
     tabindex: '0',
-    title: 'Comments | Remark42',
+    title: 'Traleor | Comments',
     horizontalscrolling: 'no',
     verticalscrolling: 'no',
   });
